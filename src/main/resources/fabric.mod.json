@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "rpd_props",
+	"version": "${version}",
+	"name": "rpd The Props",
+	"description": "(so)funny mod for friends and me",
+	"authors": [
+		"pavelkov"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rpd_props/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pavelkov.rpdprops.RpdProps"
+		],
+		"client": [
+			"rpdprops.client.RpdPropsClient"
+		],
+		"fabric-datagen": [
+			"rpdprops.client.RpdPropsDataGenerator"
+		]
+	},
+	"mixins": [
+		"rpd_props.mixins.json",
+		{
+			"config": "rpd_props.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
