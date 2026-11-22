@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import pavelkov.rpdprops.RpdProps;
 
 public class RpdModItems {
-    public static Item register(Item item, String id) {
+    public static Item register(Item item, String id) { //Ф-ция из документации
         // Create the identifier for the item.
         ResourceLocation itemID = ResourceLocation.fromNamespaceAndPath(RpdProps.MOD_ID, id);
 
@@ -18,6 +18,7 @@ public class RpdModItems {
         return registeredItem;
     }
     public static void initialize(){
+//        ModItems.initialize(); //Отключено из-за ошибок с RpdProps.onInitialize(), когда дело доходит до этой строки
         RpdProps.LOGGER.info("Initializing class RpdModItems");
     }
 

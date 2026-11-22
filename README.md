@@ -14,3 +14,11 @@ Don't look for the meaning of "rpd", there isn't one.
 
 If you know how to improve certain aspects of the mod, or you want to share your experience, or you have reasoned criticism, I'm always open to dialogue on Discord or here.
 Discord: kt0_to0
+
+# Пометки
+Исправить инициализацию ModItems.\
+Исправить отображение ban_hammer.\
+Исправить локализацию.\
+*на данный момент это пока всё, что я могу сделать.*
+
+Заменить "rpd" на что-то осмысленное.

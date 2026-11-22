@@ -1,0 +1,6 @@
+{
+  "parent": "item/generater",
+  "textures": {
+    "layer0": "rpd_props:ban_hammer/ban_hammer.png"
+  }
+}
